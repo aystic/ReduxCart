@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ReduxCart/static/css/main.add0946d.chunk.css",
-    "main.js": "/ReduxCart/static/js/main.dfa1dca1.chunk.js",
-    "main.js.map": "/ReduxCart/static/js/main.dfa1dca1.chunk.js.map",
+    "main.js": "/ReduxCart/static/js/main.a96b8797.chunk.js",
+    "main.js.map": "/ReduxCart/static/js/main.a96b8797.chunk.js.map",
     "runtime-main.js": "/ReduxCart/static/js/runtime-main.59156214.js",
     "runtime-main.js.map": "/ReduxCart/static/js/runtime-main.59156214.js.map",
     "static/js/2.793fd271.chunk.js": "/ReduxCart/static/js/2.793fd271.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.59156214.js",
     "static/js/2.793fd271.chunk.js",
     "static/css/main.add0946d.chunk.css",
-    "static/js/main.dfa1dca1.chunk.js"
+    "static/js/main.a96b8797.chunk.js"
   ]
 }

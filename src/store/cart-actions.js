@@ -72,7 +72,10 @@ export const fetchCart = () => {
 				);
 			}
 			const data = await response.json();
-			if (data) return data;
+			if (data) {
+				if (!data.Items) data.Items = [];
+				return data;
+			}
 			throw new Error("Some error occurred, Could not fetch the cart!");
 		};
 		try {
