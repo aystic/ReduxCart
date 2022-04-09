@@ -13,7 +13,7 @@ export const sendCart = (cart) => {
 		);
 		const sendData = async () => {
 			const response = await fetch(
-				"https://redux-cart-a206a-default-rtdb.firebaseio.com/cart.json",
+				process.env.REACT_APP_BASE_URL + "cart.json",
 				{
 					method: "PUT",
 					headers: {
@@ -64,7 +64,7 @@ export const fetchCart = () => {
 		);
 		const getData = async () => {
 			const response = await fetch(
-				"https://redux-cart-a206a-default-rtdb.firebaseio.com/cart.json"
+				process.env.REACT_APP_BASE_URL + "cart.json"
 			);
 			if (!response.ok) {
 				throw new Error(
